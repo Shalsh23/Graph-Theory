@@ -1,0 +1,161 @@
+Exam 2 - Tuesday, April 5
+
+Closed book, closed notes, no calculators, cell phones, cameras, etc.
+Space for scratch work will be included with the exam.
+
+Covers network flows (4.3), graph coloring (5.1,5.2), planar graphs (6.1, 6.2), and coloring planar graphs(6.3)
+
+Be familiar with (memorize) all definitions theorems, lemmas, corollaries, 
+propositions that are included in the class notes. 
+(Look for their precise wording in the text.)
+Be ready to apply these to solve problems.
+
+Study suggestions:
+
+- Study solutions to homework problems.  Make sure you understand the
+questions they are asking and any subtleties involved in their solution.
+Think about how you could improve solutions 
+now that you know more graph theory or now that you have more
+expertise in formulating proofs.  Think about how you might have
+said things better or with fewer words or more precisely by using
+the terminology and tools (results) we have been developing.
+
+- Review the results, proofs, proof techniques, and examples discussed 
+in class and make sure you understand every step.
+
+- Practice working problems from the text (there is a forum on the
+message board to share & check answers).  If you really understand 
+what is going on, you find all the problems marked "(-)" easy.
+
+- Practice on the Review Questions below.
+
+- Upon request, a message board could be set up to share & check answers to problems
+you are working on to practice for the exam.
+
+********************************************
+Some Review Questions for Exam 2
+********************************************
+
+It goes without saying that all of the answers (1) should be justified and
+(2) should be justified using graph theory.  Remember, on the exam you
+are trying to show how much you have learned.
+
+
+1. What is the main result about network flows?  What are the main tools and
+how are they used?  Describe an algorithm for finding a maximum flow.
+What is a feasible flow?  What is a source-sink cut?  What is a flow 
+augmenting path?
+
+2. Given a network and a feasible flow, can you find all of these: 
+	the value of the flow
+	the set of vertices joined to the sink by a path of positive tolerance
+	a flow augmenting path
+
+3. Given a network, can you find all of these:
+	the capacity of any specified cut
+	the maximum feasible flow
+	the value of the maximum feasible flow
+        a source-sink cut of minimum capacity
+	the capacity of the minumum source-sink cut
+
+4. How can you *prove* that a given flow f is maximum?  (There is only  one
+good graph theory answer to this question.  Don't say "because there
+are no f-augmenting paths".)
+
+5. Given a flow, f, let S be the set of vertices reachable from the source,
+	s, by paths of positive tolerance.
+
+	What can you say about f if the sink t is in S?
+	If t is not in S, show that the value of f is the same as
+	the capacity of the cut [S, V-S].
+
+6. What is the difference between k-chromatic and k-colorable?
+What is the difference between  k-chromatic and k-critical?
+Give example to highlight the differences.
+
+7. Does every k-chromatic graph have a k-critical subgraph?
+Why or why not?
+
+8. What is greedy coloring?  Give an example to show that it is not
+necessarily optimal.  How is greedy coloring used to show that
+the chromatic number of a graph is never more than its maximum
+degree plus 1.
+
+9. If G is critical, what can you say about an upper bound on its
+chromatic number?  How is this different from the non-critical case?
+
+10. Give an example to show that G can contain an odd cycle and yet
+still have chromatic number smaller that its maximum degree.
+Why doesn't this contradict Brooks' theorem?
+
+11. Show how greedy coloring + the tree trick work to prove Brooks'
+theorem when the graph is not regular.
+
+12. Give example of critical graphs for several different chromatic
+numbers.
+
+13. Can you find a relationship between the chromatic number of a graph
+and the chromatic number of its complement?
+
+14. Find a graph with chromatic number 5, but with no 3-cycles.
+
+15. Suppose you start with C_3 and apply the Mycielski construction.
+Do you still get a graph with chromatic number 4?
+
+16. In the construction of the proof of Theorem 5.2.3, how many vertices
+does the k-chromatic graph have?  How many edges?
+
+17. How many edges are in the Turan graph T_{n,k}?
+Suppose a simple graph G has 20 vertices and chromatic number 5 and
+G is d regular.  What can you say about d?
+
+18. Are the Turan graphs critical?  What is their vertex connectivity?
+Their edge connectivity?
+
+19. Can subdividing an edge in a graph change its chromatic number?  Explain.
+Can contracting an edge increase the chromatic number?
+
+20. True or false:  Let e be an edge of simple graph G.  Let H be obtained
+from G by contracting edge e.  Then if H contains a subdivision of
+K_{3,3}, so does G.
+
+21. True or false:  Let e be an edge of simple graph G.  Let H be obtained
+from G by contracting edge e.  Then if H contains a subdivision of
+K_{3,3}, so does G.
+
+22. Prove that a simple planar graph has minimum degree at most 5.
+
+23. Which of the Harary graphs are planar?
+
+24. Which of the Turan graphs are planar?
+
+25. Suppose we have a map in which every state shares a boundary with exactly
+3 other states.  Must $G$ be 3-colorable
+
+26.  Use graph theory to analyze the possible planarity of the 4-cube and
+of its complement.
+
+27.  Prove which of these combinations are possible/impossible:
+For simple graph G, and edge e of G: G contains (does not contain)
+a Kuratowski subgraph, while G dot e contains (does not contain) a
+Kuratowski subgraph.
+
+28.  What can be said about the minimum degree of a planar graph?
+
+29.  Outline the proof of Kuratowski's theorem, in particular how it
+follows from Tutte's theorem, how the pieces fit together.
+
+30.  Use the "conflicting chords" argument to show that K_{3,3} is nonplanar.
+Can you generalize the "conflicting chords" to show that the Petersen
+graph is not planar. (Start with a long cycle C.  Delete the edges
+of C.  You could think of the nontrivial connected components as
+a generalization of chords.  But then what does "conflict" correspond to?
+
+31. How does the proof that every planar graph is 5-colorable start?
+Use this idea to give a simple proof that every planar graph is
+6-colorable.
+
+32. Problem 6.3.1, text - use the strategy of the proof of the Five Color
+Theorem.
+
+

@@ -1,0 +1,165 @@
+CSC/MA/OR 565 Graph Theory
+Exam 1 - Tuesday, February 16
+
+Closed book, closed notes, no computers, calculators, cell phones,
+cameras, etc.  Space for scratch work will be included with the exam.
+
+Covers Chapters 1-4.2, with a focus on the material covered in the
+lectures, as detailed in the syllabus.
+
+Be familiar with all definitions theorems, lemmas, corollaries,
+propositions that are included in the class notes.
+(Look for their precise wording in the text.)
+Be ready to apply these to solve (relatively easy) problems.
+Be ready to correctly state all of the main results.
+
+Study suggestions:
+
+- Be familiar with all definitions theorems, lemmas, corollaries,
+propositions that are included in the class notes.
+(Look for their precise wording in the text.)
+Be ready to apply these to solve problems.
+
+- Study solutions to homework problems.  Make sure you understand the
+questions they are asking and any subtleties involved in their solution.
+Think about how you could improve your own solutions
+now that you know more graph theory or now that you have more
+expertise in formulating proofs.  Think about how you might have
+said things better or with fewer words or more precisely by using
+the terminology and tools (results) we have been developing.
+
+- Review the results, proofs, proof techniques, and examples discussed
+in class and make sure you understand every step.
+
+- Practice working problems from the text (You can use the "Exam 1"
+message board to share questions & check answers).
+If you understand what is going on, you are likely to find all the problems marked "(-)" easy.
+
+Review questions:
+
+1. Outline the main definitions and results about:
+        paths, cycles  (what are the main tools?)
+
+2. Outline the main definitions and results about:
+        matchings and covers (what are the main tools?)
+
+3. Outline the main definitions and results about:
+        trees (what are the main tools?)
+
+4. State 3 "characterization" theorems that we have studied.
+
+5. Describe 4 different proof techniques and, for each one, give
+        a complete graph theory proof that uses the technique.
+
+6. Which of the problems we have studied are known to be solvable
+        in polynomial time?
+
+7. What is the graph isomorphism problem?
+
+8.  Prove by contradiction:  A connected 4-regular graph cannot have a cut edge.
+
+9. Can two nonisomorphic connected, simple, regular graphs have the same degree sequence?
+Give some examples where n(g)=10.
+
+10. Prove that Q_k is bipartite.
+
+11.  Let n >= 2 and let  A_n be the adjacency matrix of K_n.
+Show how to use graph theory to find
+A_n^4[1,1] without multiplying matrices.
+
+12.  State two facts about tournaments that were discussed in class notes or
+proved in the homework.  (Double-check your statements for correctness.)
+
+13.  Give a beautiful proof that every tournament has a directed path that includes every vertex.
+
+14. Prove that Q_k has a perfect matching.
+
+15. Prove that a tree has at most one perfect matching.
+
+16.  Show how to solve this with graph theory: If T is a tree with k leaves and if every non-leaf vertex of T
+has degree 5, find the number of vertices of T, as a function of k.
+
+17. Let M be a maximal (not necessarily maximum) matching in G.
+Prove the minimum vertex cover in G has size less than or equal to 2|M|.
+
+18.  If M and M' are both matchings in G, what can you say about the
+spanning subgraph of G induced by the symmetric difference of M and M'?
+
+19.  Use a counting argument like the one used to prove the Marriage Theorem
+to show that if G is a regular bipartite graph with bipartition (X,Y),
+then |X|=|Y|.
+
+20. Show how to use graph theory to show:  In a simple, connected, weighted, undirected graph, G,
+any edge of minimum weight is in some minimum spanning tree.
+
+21.  For positive integer, k, let G_k be the subgraph of Q_{2k+1}
+induced by the vertices in which the number of ones and zeros differs by 1.
+Show how to use graph theory to find alpha'(G_k), the size of the
+maximum matching in G_k.
+
+22. Give a precise statement of Hall's theorem.
+
+23. Let G be a graph with no isolated vertices.
+Show how, given a maximum matching M in G, to construct an edge cover of
+G of size n(G)-|M|.  Give an example to show that the edge cover might not
+be minimum.
+
+24. Let G be a graph with no isolated vertices.  If C is a minimum edge
+cover in G, what can the subgraph of G induced by C look like?
+Show how, to construct from C a matching of size n(G)-|C|.
+Give an example to show that the matching might not maximum.
+
+25. Use graph theory to prove that if G is a simple graph,
+with no isolated vertices, then beta'(G) >=  alpha(G).
+(Reminder:  beta'(G) is the size of the minumum edge cover in G and
+alpha(G) is the size of the maximum independent set.)
+
+26. Prove by induction that A^k[u,v] is the number of (u,v) walks of length
+        k in G, if A is the adjacency matrix of G.
+
+27.  Use the recursive method for counting spanning trees to find the number of spanning trees of K_4.
+
+28. Show how to use one or more of our theorems to find the number of spanning trees of:  K_5 with one edge removed;  K_4 with one edge duplicated.
+
+29.  Find a formula for the number of spanning trees in the fan graph discussed in class in Lecture 6.
+
+30.  Apply a theorem from class to  derive a recurrence for the number of spanning trees in the wheel graph and/or the ladder graph (search the web for a definition).
+
+31.  Try to apply the determinant method to verify the number of spanning trees of K_4.
+
+32.  Can you tell from the Prufer code of a tree whether or not the tree is a path?
+
+33.  Give some examples of this:  A simple graph G can be isomorphic to its complement.
+
+34.   Let O_k be the odd graph whose vertices are the k-element
+subsets of {1, ..., 2k+1};
+two vertices are adjacent if and only if they are disjoint.
+Use graph theory to find the number of edges in O_k.
+
+35. True or false?
+Justify with a theorem/lemma/etc. or give a counterexample.
+
+        A 3-regular, 2-connected simple graph cannot have a cut edge.
+        A 3-regular, 2-edge-connected simple graph cannot have a cut vertex.
+        If G is 2-connected and p is a u,v path, then G contains a u,v path
+               that is internally disjoint from p.
+
+36. (Save for next exam.)   What is the difference between k-chromatic and k-colorable?
+What is the difference between  k-chromatic and k-critical?
+Give example to highlight the differences.
+
+37. What is the difference between k-connected and connectivity k?
+Give example to highlight the differences.  Similarly for edge connectivity
+
+38. For which values of k,l,m can you find a graph with minimum degree k,
+connectivity l and edge connectivity m?
+
+39.  Prove or disprove all four variations of this:  If G is 2-edge (vertex)
+connected then any two edges (vertices) are contained in a common cycle.
+
+40.  Prove or disprove all four variations of this:  If G is 2-edge (vertex)
+connected then any two vertices are joined by at least 3 edge (vertex)
+disjoint paths.
+
+41. Prove or disprove all four variations of this: A 3-regular,
+2-vertex (edge)-connected graph cannot have a cut vertex (edge)?

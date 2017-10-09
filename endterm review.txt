@@ -1,0 +1,79 @@
+**********************************
+CSC/MA/OR 565 FINAL EXAM INFORMATION
+************************************
+Thursday, April 28, 8:00 - 11:00 a.m.
+
+Cumulative, covers all lectures and associated material in the text,
+including about 15-20% on material covered since exam 2.
+
+About 8-10 questions.
+
+Closed book, no calculators, no notes,
+
+Suggestions for preparation: (no special order)
+
+        - Study exams 1 and 2 and quizzes
+        - Study posted solutions to homework problems
+        - Review notes, outline major results and techniques
+        - Practice on review questions for exams 1 and 2        
+        - Think about problems at the end of each section in text
+
+What questions would you ask if you were preparing a final exam for the
+course? Maybe you could ask them of each other.  Upon request a message board for Final Exam preparation can be set up.
+
+
+********************************************
+Some Review Questions for Exam 2
+********************************************
+
+1.  We showed that the greedy algorithm for vertex coloring never uses more
+than max degree plus one colors.  Can the same be said for greedy edge coloring in a simple graph?
+
+2.  If G is an n-vertex simple graph with minimum degree at least n/2, must G
+be connected?
+
+3. Definition 7.1.11 in the text defines a simple graph to be Class 1 if its
+edge chromatic number is its maximum degree and Class 2 otherwise.
+For which values of n and k is H_{n,k} Class 1?  Class 2?
+
+4.  Same question as 3 for T_{n,k}.
+
+5.  Vizing's theorem requires that the graph be simple.  In the proof of
+Vizing's theorem, where is the first step that would not be valid for a
+non-simple graps?
+
+6.  Study the proof of Hall's theorem and check whether it still holds if G is
+not simple.  What about Corollary 3.1.13?  Why am I asking this question in
+the context of edge coloring?
+
+7.  In a proper edge coloring of a simple graph G, the edges colored the same
+color form a matching.  Use this fact and a counting argument to prove that
+when n is odd, K_n does not have a proper n-1 edge coloring.
+
+8.  What is the fat triangle and what is interesting about it?
+
+9.  Prove or disprove:  Any simple connected graph with an odd number of
+vertices must be Class 2.
+
+10.  What about any simple connected regular graph with an odd number of
+vertices - must it be Class 2?
+
+11.  Adapt Proposition 7.2.3 into a necessary condition for a graph to have a
+Hamiltonian path.
+
+12.  Problem 7.2.8 in the text.
+
+13.  Problem 7.2.2, text.  Do any of our necessary or sufficient questions
+determine this?
+
+14.  Problem 7.2.12, text.  Do any of our necessary or sufficient questions 
+determine this?
+
+15.  Find the closure of the two graphs in problem 7.2.36.
+
+16.  Show why these two graphs fail Chvatal's condition.
+
+17.  For which n and k are the Turan graphs Hamiltonian? In each case show
+which (if any) of our necessary or  sufficient conditions apply.
+
+
